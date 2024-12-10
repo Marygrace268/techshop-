@@ -1,0 +1,116 @@
+*
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.signup-box {
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+.signup-box h2 {
+    margin-bottom: 15px;
+}
+
+.signup-box p {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.signup-box a {
+    color: rgb(254, 3, 3);
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border-color: white;
+    color: white;
+   
+}
+
+.btn-box {
+    margin-bottom: 15px;
+}
+
+.btn-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(248, 5, 5);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-box button:hover {
+    background-color: #e38a00;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-login button {
+    padding: 8px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google {
+    background-color: #db4437;
+    color: white;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
